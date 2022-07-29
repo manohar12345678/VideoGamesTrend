@@ -7,5 +7,15 @@ Agenda is to find two things:
 
 Imoprting the Dataset:
 
+pip install pymysql
+
+#import required libraries
+import pandas as pd
+from sqlalchemy import create_engine
+import pymysql
+engine = create_engine('mysql+pymysql://root:@localhost:51211')
+# connection string
+conn = engine.connect()
+
 
 
