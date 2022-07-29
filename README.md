@@ -1,6 +1,6 @@
 # project- VideoGamesTrend
-## > The dataset is located in the resource folder
-## > The python code file is located in the src folder
+## > The dataset is located in the resource directory
+## > The python code file is located in the src directory
 
 
 ### Data set:
