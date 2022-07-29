@@ -23,7 +23,10 @@
 
 ### Creating a new column that labels records before 2005 as 'pre-2005' and after 2005 as 'post-2005'
 
-### 
+### Finding Was the average of global sales higher before or after 2005 ?
+
+## Conclusion
+> 
 
 
 
