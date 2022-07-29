@@ -1,7 +1,7 @@
 # Data set
 Here we have a data set called vgsales-2016. This data set is basically the sales of the various video games on different platforms over the years.
 
-#Agenda
+##Agenda
 Our Agenda is to find two things
 1. Idenfying the average globale sales before 2005 and after 2005
 
