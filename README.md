@@ -26,7 +26,7 @@
 ### Finding Was the average of global sales higher before or after 2005 ?
 
 ## Conclusion
-> 
+> The Average global sales before 2005 is more than after 2005
 
 
 
