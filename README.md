@@ -17,6 +17,14 @@ import pymysql
 engine = create_engine('mysql+pymysql://root:@localhost:51211')
 ## connection string
 conn = engine.connect()
+### Create a new column that labels records before 2005 as 'pre-2005' and after 2005 as 'post-2005'
+complex_df = pd.read_sql('''SELECT *, case
+WHEN Year > 2005 THEN "post 2005"
+WHEN Year < 2005 THEN "pre 2005"
+ELSE null
+END AS Released
+from data1202.videogamesales''', conn)
 
+complex_df.head(20)
 
 
