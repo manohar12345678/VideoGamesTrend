@@ -1,4 +1,3 @@
-# VideoGamesTrend
 # Video Game Trend Analyser
 ##The project analyse a dataset and produce game trends before and after 2005
 ##Algorithm
